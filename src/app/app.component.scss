@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -100,6 +102,27 @@
   margin: auto;
   max-width: 1080px;
 }
+.table {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.table:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.btn-info, .btn-danger {
+  font-weight: bold; /* Makes the button text bold */
+}
+
+th {
+  letter-spacing: 0.1em; /* Adds spacing between characters in table headers */
+}
+
+.container {
+  margin-top: 20px; /* Adds some space at the top of the table container */
+}
+
 #progress-bar-container {
   position: relative;
   width: 90%;
@@ -154,4 +177,5 @@
     transform: translateY(0px);
     opacity: 1;
   }
+
 }
